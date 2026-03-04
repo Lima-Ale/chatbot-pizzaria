@@ -4,14 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizzaria</title>
-    <link rel="stylesheets" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="">
-    <img src="./assets/img/logo.png" alt="">
+    <link rel="icon" type="image/svg+xml" href="./assets/img/bot.svg">
 </head>
 <body>
-    <header id="header" class="">
-        
+    <header id="header" class="justimagem">
+        <img src="./assets/img/logotipo.svg" alt="Logotipo da Pizzaria">
     </header>
-    
+    <main id="chat-container">
+        <div id="chat-window">
+            <div class="message bot">
+                <p>Olá! Bem-vindo à Pizzaria Chatzzaria.</p> <br>
+                <p>Qual o seu nome?</p>
+            </div>
+        </div>
+
+        <div id="input-area">
+            <input type="text" id="user-input" placeholder="Digite sua mensagem...">
+            <button id="send-btn">Enviar</button>
+        </div>
+    </main>
 </body>
 </html>
